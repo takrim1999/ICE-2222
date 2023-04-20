@@ -5,9 +5,12 @@ subplot(2,1,1)
 x1= [-2*2*pi:0.1:2*2*pi];
 y = sin(x);
 plot(x,y);
+xline(0);
+yline(0);
 title('Continuous Sin Wave');
 subplot(2,1,2)
 x1= [-2*2*pi:0.4:2*2*pi];
 y = sin(x1);
-stem(x1,y)
+stem(x1,y);
+xline(0);
 title('Discrete Sin Wave');
