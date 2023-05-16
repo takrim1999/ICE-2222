@@ -1,4 +1,4 @@
-x = [-2*pi*2:0.1:2*pi*2]
+x = [0:0.1:2*pi*2]
 sin_y = sin(x);
 cos_y = cos(x);
 tan_y = tan(x);
