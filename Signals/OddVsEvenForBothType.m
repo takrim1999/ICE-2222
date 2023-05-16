@@ -9,7 +9,7 @@ yline(0);
 title('even signal for continuous signal');
 subplot(2,2,2);
 x = [-5:0.1:5];
-y2=[]
+y2=[];
 for a=x
     if a>0
         y2(end+1)=a^2;
@@ -30,7 +30,7 @@ yline(0);
 title('even signal for descrete signal');
 subplot(2,2,4);
 x = [-5:0.3:5];
-y2=[]
+y2=[];
 for a=x
     if a>0
         y2(end+1)=a^2;
